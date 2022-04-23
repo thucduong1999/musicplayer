@@ -1,0 +1,2 @@
+const BASE_URL = "https://zingmp3.vn"
+const API_PLAY_LISTS = "/api/v2/page/get/playlist?id=ZWZB969E&ctime=1650721198&version=1.6.21&sig=d72e08d6ad429df224987bbcda23e8b12823b7b75767d22b2b6d5cbe52830b52a57367a0d3d5ebb6d96658661f99fbcf426b9d71317f159bcbe0224c1dce4f23&apiKey=88265e23d4284f25963e6eedac8fbfa3"
