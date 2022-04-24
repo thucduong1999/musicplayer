@@ -109,6 +109,9 @@ body {
   width: 23px;
   height: 23px;
 }
+.dashboard .control .btn:hover i {
+  cursor: pointer;
+}
 .dashboard .control .btn-toggle-play {
   opacity: 1;
   text-align: center;
@@ -136,6 +139,9 @@ body {
   border-radius: 7px;
   background: #fa4d7e;
   cursor: pointer;
+}
+.playlists {
+  display: none;
 }
 .playlist {
   margin-top: 458px;
