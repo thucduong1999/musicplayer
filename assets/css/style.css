@@ -128,17 +128,29 @@ body {
   transition: opacity 0.2s;
   -webkit-appearance: none;
   width: 355px;
-  height: 7px;
+  height: 5px;
   background-color: #d4d4d4;
-  border-radius: 7px;
+  border-radius: 5px;
+}
+.dashboard .progress:hover {
+  height: 7px;
+  cursor: pointer;
+}
+.dashboard .progress:hover -webkit-slider-thumb {
+  height: 10px;
+  width: 10px;
 }
 .dashboard .progress::-webkit-slider-thumb {
   -webkit-appearance: none;
-  width: 12px;
-  height: 7px;
-  border-radius: 7px;
+  width: 9px;
+  height: 5px;
+  border-radius: 5px;
   background: #fa4d7e;
   cursor: pointer;
+}
+.dashboard .progress::-webkit-slider-thumb:hover {
+  height: 10px;
+  width: 10px;
 }
 .playlists {
   display: none;
